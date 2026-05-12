@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.mo-marine\.com [NC]
+RewriteRule ^(.*)$ https://mo-marine.com/$1 [L,R=301]
